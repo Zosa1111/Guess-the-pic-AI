@@ -1,1 +1,37 @@
-
+<!--
+Zosa's AI Pic detector
+Jamari Robinson
+11/23/2026
+ 
+Any comments/ credits etc....
+-->
+<!DOCTYPE html>
+<html>
+<head>
+<title> Pic Detector</title>
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.14.0/dist/tf.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/mobilenet@2.1.0"></script>
+<!-- link to the style sheet -->
+<link rel = "stylesheet" href = "style.css">
+</head>
+ 
+  <body>
+<nav></nav>
+<main>
+<h1>Zosa's AI Pic detector</h1>
+<section id="droparea">
+<div id="dropzone">Drop image here or click to choose an 
+  image from your harddrive</div>
+<input type = "file" id="imageInput" accept="image/*" style="display:none;">
+<img id="preview" width="300" style="display:none; margin-top:10px:">
+<p id="result">Loading model ... </p>
+ 
+</section>
+<section id="output">
+ 
+  
+</section>
+</main>
+<script src="script.js"></script>    
+</body>
+</html>

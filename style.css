@@ -10,7 +10,7 @@ Demo from PROG 102 Code
 
 /* HTML styles */
  body {
- background: #E6E6FA;
+ background: linear-gradient(45deg, #ff6b6b, #feca57);
  }
 
 .content {  

@@ -1,7 +1,7 @@
 // *****************************
 // Image Subject Detection Application
-// Author Name
-// Date
+// Jamari Robinson 
+// 11/23/2026
 // Demo from PROG 102 Code
 // *****************************
 

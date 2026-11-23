@@ -17,7 +17,7 @@ async function loadModel() {
   model = await mobilenet.load();
 
   document.getElementById("result").textContent =
-    "Model ready! Choose an image.";
+    "All Set! Choose an image.";
 }
 
 // Load the model when the page opens
@@ -34,7 +34,7 @@ async function analyzeImage() {
 
   // Check if the model is ready
   if (!model) {
-    result.textContent = "Please wait. Model is loading...";
+    result.textContent = "Hold up. Model is loading...";
     return;
   }
 
@@ -44,7 +44,7 @@ async function analyzeImage() {
     return;
   }
 
-  result.textContent = "Analyzing image...";
+  result.textContent = "checking the image out...";
 
   // Ask the AI model to recognize the image
   const predictions = await model.classify(img);

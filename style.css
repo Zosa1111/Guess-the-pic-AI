@@ -20,12 +20,13 @@ body {
 }
 
 @keyframes rotating {
-  0% {transform: rotate (-15deg);}
-  50% {transform: rotate (15deg);}
-  100% {transform: rotate (-15deg);}
+  0% {transform: rotate(-15deg);}
+  50% {transform: rotate(15deg);}
+  100% {transform: rotate(-15deg);}
 }
 
 h1{ 
+  display: inline-block;
   -webkit-text-stroke: 5px white;
   paint-order: stroke fill;
   animation-name: rotating; 

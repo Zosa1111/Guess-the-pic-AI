@@ -25,6 +25,15 @@ body {
   100% {transform: rotata (-15deg);}
 }
 
+h1{ 
+  -webkit-text-stroke: 5px white;
+  paint-order: stroke fill;
+  animation-name: rotating; 
+  animation-duration: 4s;
+  animation-iteration-count: infinate;
+  animation-time-function: ease-in-out;
+}
+
 .content {
   max-width: 90%;
   margin: auto;

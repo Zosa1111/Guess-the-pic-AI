@@ -19,6 +19,11 @@ body {
   justify-content: center;
 }
 
+@keyframes rotating {
+  0% {transform: rotate (-15deg);}
+  50% {transform: rotate (15deg);}
+  100% {transform: rotata (-15deg);}
+
 .content {
   max-width: 90%;
   margin: auto;

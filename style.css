@@ -22,7 +22,7 @@ body {
 @keyframes rotating {
   0% {transform: rotate (-15deg);}
   50% {transform: rotate (15deg);}
-  100% {transform: rotata (-15deg);}
+  100% {transform: rotate (-15deg);}
 }
 
 h1{ 
@@ -31,7 +31,7 @@ h1{
   animation-name: rotating; 
   animation-duration: 4s;
   animation-iteration-count: infinate;
-  animation-time-function: ease-in-out;
+  animation-timing-function: ease-in-out;
 }
 
 .content {

@@ -30,7 +30,7 @@ h1{
   paint-order: stroke fill;
   animation-name: rotating; 
   animation-duration: 4s;
-  animation-iteration-count: infinate;
+  animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
 }
 

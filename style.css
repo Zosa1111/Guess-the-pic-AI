@@ -9,33 +9,39 @@ Demo from PROG 102 Code
 
 
 /* HTML styles */
- body {
- background: linear-gradient(45deg, #ff6b6b, #feca57);
- }
+body {
+  background: linear-gradient(45deg, #ff6b6b, #feca57);
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
-.content {  
+.content {
   max-width: 90%;
   margin: auto;
- }
+  text-align: center;
+}
 
- /* Image Application Dropzone */
+/* Image Application Dropzone */
+#dropzone {
+  width: 320px;
+  height: 240px;
+  border: 3px solid #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #CCC;
+  color: #999;
+  font-size: large;
+  font-weight: bold;
+  margin: 10px auto;
+  cursor: pointer;
+}
 
-    #dropzone {
-      width: 320px;
-      height: 240px;
-      border: 3px solid #000;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background: #CCC;
-      color: #999;
-      font-size: large;
-      font-weight: bold;
-      margin-bottom: 10px;
-      cursor: pointer;
-    }
-
-    #dropzone.hover {
-      border-color: #2b8efc;
-      color: #2b8efc;
-    }
+#dropzone.hover {
+  border-color: #2b8efc;
+  color: #2b8efc;
+}
